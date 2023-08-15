@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.contentItems {
+  height: 60vh;
+
+  overflow-y: scroll;
+}
+.contentItems img {
+  width: 200px;
+  height: 200px;
+}
+
+.seeMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.seeMore button {
+  color: black;
+  padding: 16px;
+  width: 100%;
+  max-width: 100px;
+}
